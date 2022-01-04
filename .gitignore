@@ -1,0 +1,15 @@
+# Metals
+.bloop/
+.bsp
+
+# IDE
+.idea/
+.vscode/
+
+#JVM files
+*.class
+*.log
+
+# Executables
+target/
+project/target/
