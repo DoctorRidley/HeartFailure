@@ -9,10 +9,8 @@ lazy val root = (project in file("."))
   .settings(
     name := "HeartFailure",
     libraryDependencies += scalaTest % Test,
-    libraryDependencies += "org.apache.hadoop" % "hadoop-client" % "3.3.1",
-    libraryDependencies += "org.apache.hive" % "hive-jdbc" % "3.1.2",
 
-    libraryDependencies += "org.apache.logging.log4j" % "log4j-api" % "2.17.1"
+    libraryDependencies += "org.apache.spark" %% "spark-core" % "3.3.1",
   )
 
 // Uncomment the following for publishing to Sonatype.
